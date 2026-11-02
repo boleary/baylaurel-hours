@@ -1,0 +1,105 @@
+{
+  "timeZone": "America/New_York",
+  "regular": [
+    {
+      "day": "Sunday",
+      "open": null,
+      "close": null,
+      "isClosed": true
+    },
+    {
+      "day": "Monday",
+      "open": null,
+      "close": null,
+      "isClosed": true
+    },
+    {
+      "day": "Tuesday",
+      "open": null,
+      "close": null,
+      "isClosed": true
+    },
+    {
+      "day": "Wednesday",
+      "open": "12:00",
+      "close": "17:00",
+      "isClosed": false
+    },
+    {
+      "day": "Thursday",
+      "open": "12:00",
+      "close": "17:00",
+      "isClosed": false
+    },
+    {
+      "day": "Friday",
+      "open": "11:00",
+      "close": "17:00",
+      "isClosed": false
+    },
+    {
+      "day": "Saturday",
+      "open": "11:00",
+      "close": "17:00",
+      "isClosed": false
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-01",
+      "day": "Sunday",
+      "open": null,
+      "close": null,
+      "isClosed": true,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-02",
+      "day": "Monday",
+      "open": null,
+      "close": null,
+      "isClosed": true,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "open": null,
+      "close": null,
+      "isClosed": true,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "open": "12:00",
+      "close": "17:00",
+      "isClosed": false,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "open": "12:00",
+      "close": "17:00",
+      "isClosed": false,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-06",
+      "day": "Friday",
+      "open": "11:00",
+      "close": "17:00",
+      "isClosed": false,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-07",
+      "day": "Saturday",
+      "open": "11:00",
+      "close": "17:00",
+      "isClosed": false,
+      "isSpecial": false
+    }
+  ]
+}

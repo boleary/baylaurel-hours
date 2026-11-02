@@ -1,0 +1,37 @@
+name: Update store hours
+
+on:
+  schedule:
+    # Every 2 hours (~360 Google calls/month, well inside the free tier)
+    - cron: '0 */2 * * *'
+  # Adds a "Run workflow" button on the Actions tab for an immediate refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch hours from Google
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python3 fetch_hours.py
+
+      # Only commits when hours.json changed. The 7-day window rolls forward
+      # daily, so this also keeps the repo active (GitHub disables schedules
+      # on public repos after 60 days without activity).
+      - name: Commit if changed
+        run: |
+          if git diff --quiet hours.json; then
+            echo "Hours unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add hours.json
+            git commit -m "Update store hours"
+            git push
+          fi
