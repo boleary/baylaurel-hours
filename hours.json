@@ -46,14 +46,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-05",
-      "day": "Thursday",
-      "open": "12:00",
-      "close": "17:00",
-      "isClosed": false,
-      "isSpecial": false
-    },
-    {
       "date": "2026-11-06",
       "day": "Friday",
       "open": "11:00",
@@ -96,6 +88,14 @@
     {
       "date": "2026-11-11",
       "day": "Wednesday",
+      "open": "12:00",
+      "close": "17:00",
+      "isClosed": false,
+      "isSpecial": false
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thursday",
       "open": "12:00",
       "close": "17:00",
       "isClosed": false,
