@@ -21,20 +21,20 @@
     },
     {
       "day": "Wednesday",
-      "open": "12:00",
-      "close": "17:00",
+      "open": "11:00",
+      "close": "16:00",
       "isClosed": false
     },
     {
       "day": "Thursday",
-      "open": "12:00",
-      "close": "17:00",
+      "open": "11:00",
+      "close": "16:00",
       "isClosed": false
     },
     {
       "day": "Friday",
       "open": "11:00",
-      "close": "17:00",
+      "close": "16:00",
       "isClosed": false
     },
     {
@@ -75,13 +75,13 @@
       "open": "12:00",
       "close": "17:00",
       "isClosed": false,
-      "isSpecial": false
+      "isSpecial": true
     },
     {
       "date": "2026-11-12",
       "day": "Thursday",
-      "open": "12:00",
-      "close": "17:00",
+      "open": "11:00",
+      "close": "16:00",
       "isClosed": false,
       "isSpecial": false
     },
@@ -89,7 +89,7 @@
       "date": "2026-11-13",
       "day": "Friday",
       "open": "11:00",
-      "close": "17:00",
+      "close": "16:00",
       "isClosed": false,
       "isSpecial": false
     },
